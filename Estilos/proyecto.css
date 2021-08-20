@@ -1,0 +1,252 @@
+/* ===== Estilos =====*/
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.body{
+    background-color: #fdfdfdd2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #292929;
+    word-spacing: 0.5px;
+}
+
+.parrafos{
+    
+        font-size: 1.5rem;
+        font-weight: bold;
+     } 
+
+   
+    
+
+
+    
+                     /*===contenido index===*/
+ .foto-inicio{
+ width: 100%;
+ height: 600px;
+ background-image: url(../imagenesdelproyecto/frito.png);
+background-position: center;
+background-size: cover;
+ display: flex;
+justify-content: center;
+ align-items: center;
+margin-bottom: 60px;
+                    }
+
+
+
+      /*=== le puse conteiner pa no confundir con la clase de bt, no pienses que soy un idiota daro haha ===*/
+
+.conteiner{
+    max-width: 800px;
+    margin: 0 auto;
+   
+}
+.conteiner h2{
+    font-size: 4rem;
+    margin-bottom: 80px;
+    text-align: center;
+
+}
+.articulos-index{
+    display: flex;
+    justify-content: space-between;
+     background-color: rgba(250, 250, 250, .8);
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+
+.articulos-index article{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.pepito{
+    
+    background-image: radial-gradient(circle at 27.26% 41.72%, #ffff7c 0, #ffff61 16.67%,
+     #fffa44 33.33%, #e3ef1d 50%, #bce400 66.67%, #92db00 83.33%, #62d100 100%);
+     cursor:pointer;
+   }
+   
+    
+
+  
+
+
+.video-inicio{
+    position: -webkit-sticky;
+    position: sticky;
+     top: 20px;
+     margin-left: 500px;
+     
+        
+}
+
+                        /*=== MENU ===*/
+
+
+
+ .foto-menu{
+width: 100%;
+height: 600px;
+background-image: url(../imagenesdelproyecto/48.png);
+background-position: center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 60px;
+}
+
+
+.cachapas li{
+    list-style: none;
+}
+
+
+.bebidas li{
+    list-style: none;
+}
+
+
+.menu-imagenes{
+    border-radius: 100%;
+    
+}
+
+.ancho-menu{
+    width: 20rem;
+}
+
+
+
+
+/*==== Comentarios ====*/
+
+.foto-comentarios{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagenesdelproyecto/48.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    }
+
+
+
+
+*{box-sizing:border-box;}
+
+form{
+    height: 50rem;
+	width: 20rem;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+    background-color: #fff;;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin: 3rem 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid rgb(22, 153, 4);
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:rgb(22, 153, 4);
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	
+	resize:none;
+	display:block;
+}
+
+
+
+
+
+
+/*===== Galeria ======*/
+
+.pepito2:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 8px 8px #ecd71e;
+    -webkit-box-shadow: 0px 0px 8px 8px #ecd71e;
+    transition: 0.5s;
+    }
+
+    
+.margen-galeria{
+
+    padding: 5px;
+    margin: 10px 5rem ;
+}
+
+
+
+
+/*===== Contacto ====*/
+
+.foto-contacto{
+    width: 100%;
+    height: 600px;
+    background-image: url(../imagenesdelproyecto/23.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    }
+
+
+    .redes{
+        
+        width:48px;
+        top:50px;
+        right:0;
+    }
